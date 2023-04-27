@@ -1,0 +1,11 @@
+{
+  "name": "Cloud Icons",
+  "id": "1094628499782224426",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/ui.html",
+  "editorType": [
+    "figma",
+    "figjam"
+  ]
+}
