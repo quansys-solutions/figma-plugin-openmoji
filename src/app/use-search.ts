@@ -1,8 +1,5 @@
 import Fuse from 'fuse.js'
 import { useState, useEffect, useMemo } from 'react'
-// import { awsTable } from './data.aws';
-// import { azureTable } from './data.azure';
-// import { gcpTable } from './data.gcp';
 import { openActivitiesTable } from '../app/data.openactivities';
 import { openAnimalNatureTable } from '../app/data.openanimalnature';
 import { openComponentsTable } from '../app/data.opencomponent';
@@ -42,9 +39,6 @@ const hashtableToArray = (table: Map<string, Omit<IconProps, 'id'>>): IconProps[
 }
 const useSearch = (query: string) => {
     const provider = useStore(s => s.provider);
-    // const aws = useMemo(() => hashtableToArray(awsTable), [])
-    // const gcp = useMemo(() => hashtableToArray(gcpTable), [])
-    // const azure = useMemo(() => hashtableToArray(azureTable), [])
     const activities = useMemo(() => hashtableToArray(openActivitiesTable), [])
     const animal = useMemo(() => hashtableToArray(openAnimalNatureTable), [])
     const component = useMemo(() => hashtableToArray(openComponentsTable), [])
@@ -57,9 +51,6 @@ const useSearch = (query: string) => {
     const travel = useMemo(() => hashtableToArray(openTravelPlacesTable), [])
 
     const icons = {
-    //     aws,
-    //     gcp,
-    //     azure
         activities,
         animal,
         component,

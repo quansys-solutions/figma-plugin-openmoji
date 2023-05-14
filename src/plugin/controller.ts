@@ -1,7 +1,4 @@
-// import { awsTable } from '../app/data.aws';
-// import { gcpTable } from '../app/data.gcp';
 import { decode } from 'js-base64';
-// import { azureTable } from '../app/data.azure';
 import { openActivitiesTable } from '../app/data.openactivities';
 import { openAnimalNatureTable } from '../app/data.openanimalnature';
 import { openComponentsTable } from '../app/data.opencomponent';
@@ -27,9 +24,6 @@ figma.ui.onmessage = message => {
         smiley: openSmileysEmotionTable,
         symbol: openSymbolsTable,
         travel: openTravelPlacesTable
-        // aws: awsTable,
-        // gcp: gcpTable,
-        // azure: azureTable
     }
     const hashTable = icons[message.provider];
     const entry = hashTable.get(message.type);

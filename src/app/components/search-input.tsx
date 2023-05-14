@@ -1,8 +1,5 @@
 import theme from '../styles/theme'
 import SearchIcon from './icons/search-icon';
-// import { AWS_ICON_SIZE } from '../data.aws';
-// import { GCP_ICON_SIZE } from '../data.gcp';
-// import { AZURE_ICON_SIZE } from '../data.azure';
 import { OPEN_ACTIVITY_ICON_SIZE } from '../data.openactivities';
 import { OPEN_ANIMAL_NATURE_ICON_SIZE } from '../data.openanimalnature';
 import { OPEN_COMPONENT_ICON_SIZE } from '../data.opencomponent';
@@ -23,9 +20,6 @@ interface SearchInputProps extends React.HTMLProps<HTMLDivElement> {
 const SearchInput = ({ value, onChange, ...props }: SearchInputProps) => {
     const provider = useStore(s => s.provider);
     const datasetSizes = {
-        // aws: AWS_ICON_SIZE,
-        // gcp: GCP_ICON_SIZE,
-        // azure: AZURE_ICON_SIZE
         activities: OPEN_ACTIVITY_ICON_SIZE,
         animal: OPEN_ANIMAL_NATURE_ICON_SIZE,
         component: OPEN_COMPONENT_ICON_SIZE,

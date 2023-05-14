@@ -1,7 +1,4 @@
 import "../components/radio-toggle-button.css"
-// import AWS from '../components/icons/aws-icon';
-// import GCP from '../components/icons/gcp-icon';
-// import Azure from "./icons/azure-icon";
 import ACTIVITIES from "./icons/activities-icon";
 import ANIMAL from "./icons/animal-icon";
 import COMPONENTICON from "./icons/component-icon";
@@ -54,18 +51,6 @@ const RadioToggleButton = () => {
 
             <input type="radio" name="size" id="size_10" checked={provider === 'travel'} value="travel" onChange={updateProvider} />
             <label htmlFor="size_10"><TRAVEL /></label>
-            {/* <input type="radio" name="size" id="size_1" checked={provider === 'aws'}
-                value="aws" onChange={updateProvider} />
-            <label htmlFor="size_1"><AWS /></label>
-
-            <input type="radio" name="size" id="size_2" checked={provider === 'gcp'} value="gcp" onChange={updateProvider} />
-            <label htmlFor="size_2"><GCP /></label>
-
-            <input type="radio" name="size" id="size_3" checked={provider === 'azure'} value="azure" onChange={updateProvider} />
-            <label htmlFor="size_3"><Azure /></label>
-
-            <input type="radio" name="size" id="size_4" checked={provider === 'arts'} value="arts" onChange={updateProvider} />
-            <label htmlFor="size_4"><Azure /></label> */}
         </div>
     )
 };
