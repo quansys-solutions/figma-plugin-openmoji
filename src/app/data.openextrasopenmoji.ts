@@ -1567,4 +1567,4 @@ openExtrasOpenMojiTable.set('uploadColor', {name: 'Upload Color', icon: uploadCo
 openExtrasOpenMojiTable.set('wifi', {name: 'Wifi', icon: wifi});
 openExtrasOpenMojiTable.set('wifiColor', {name: 'Wifi Color', icon: wifiColor});
 
-export const OA_ICON_SIZE = openExtrasOpenMojiTable.size;
+export const OPEN_EXTRA_MOJI_ICON_SIZE = openExtrasOpenMojiTable.size;

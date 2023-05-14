@@ -854,4 +854,4 @@ openSmileysEmotionTable.set('speakNoEvilMonkeyColor', {
     icon: speakNoEvilMonkeyColor,
 });
 
-export const OA_ICON_SIZE = openSmileysEmotionTable.size;
+export const OPEN_SMILEY_EMOTION_ICON_SIZE = openSmileysEmotionTable.size;

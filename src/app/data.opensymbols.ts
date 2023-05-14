@@ -72,8 +72,8 @@ import PButton from './icons/symbols/alphanum/P-button.svg';
 import PButtonColor from './icons/symbols/alphanum/P-button_color.svg';
 import SOSButton from './icons/symbols/alphanum/SOS-button.svg';
 import SOSButtonColor from './icons/symbols/alphanum/SOS-button_color.svg';
-import UPButton from './icons/symbols/alphanum/UP!-button.svg';
-import UPButtonColor from './icons/symbols/alphanum/UP!-button_color.svg';
+import UPButton from './icons/symbols/alphanum/UP-button.svg';
+import UPButtonColor from './icons/symbols/alphanum/UP-button_color.svg';
 import VSButton from './icons/symbols/alphanum/VS-button.svg';
 import VSButtonColor from './icons/symbols/alphanum/VS-button_color.svg';
 import BACKArrow from './icons/symbols/arrow/BACK-arrow.svg';
@@ -96,8 +96,8 @@ import leftArrowCurvingRight from './icons/symbols/arrow/left-arrow-curving-righ
 import leftArrowCurvingRightColor from './icons/symbols/arrow/left-arrow-curving-right_color.svg';
 import leftRightArrow from './icons/symbols/arrow/left-right-arrow.svg';
 import leftRightArrowColor from './icons/symbols/arrow/left-right-arrow_color.svg';
-import ONArrow from './icons/symbols/arrow/ON!-arrow.svg';
-import ONArrowColor from './icons/symbols/arrow/ON!-arrow_color.svg';
+import ONArrow from './icons/symbols/arrow/ON-arrow.svg';
+import ONArrowColor from './icons/symbols/arrow/ON-arrow_color.svg';
 import rightArrow from './icons/symbols/arrow/right-arrow.svg';
 import rightArrowColor from './icons/symbols/arrow/right-arrow_color.svg';
 import rightArrowCurvingDown from './icons/symbols/arrow/right-arrow-curving-down.svg';
@@ -1003,4 +1003,4 @@ openSymbolsTable.set('taurusColor', {name: 'Taurus Color', icon: taurusColor});
 openSymbolsTable.set('virgo', {name: 'Virgo', icon: virgo});
 openSymbolsTable.set('virgoColor', {name: 'Virgo Color', icon: virgoColor});
 
-export const OA_ICON_SIZE = openSymbolsTable.size;
+export const OPEN_SYMBOL_ICON_SIZE = openSymbolsTable.size;

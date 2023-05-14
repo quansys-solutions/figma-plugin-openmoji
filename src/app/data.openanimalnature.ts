@@ -586,4 +586,4 @@ openAnimalNatureTable.set('shamrockColor', {name: 'Shamrock Color', icon: shamro
 openAnimalNatureTable.set('sheafOfRice', {name: 'Sheaf Of Rice', icon: sheafOfRice});
 openAnimalNatureTable.set('sheafOfRiceColor', {name: 'Sheaf Of Rice Color', icon: sheafOfRiceColor});
 
-export const OA_ICON_SIZE = openAnimalNatureTable.size;
+export const OPEN_ANIMAL_NATURE_ICON_SIZE = openAnimalNatureTable.size;

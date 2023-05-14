@@ -1075,4 +1075,4 @@ openObjectsTable.set('penColor', {name: 'Pen Color', icon: penColor});
 openObjectsTable.set('pencil', {name: 'Pencil', icon: pencil});
 openObjectsTable.set('pencilColor', {name: 'Pencil Color', icon: pencilColor});
 
-export const OA_ICON_SIZE = openObjectsTable.size;
+export const OPEN_OBJECT_ICON_SIZE = openObjectsTable.size;

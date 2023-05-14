@@ -347,4 +347,4 @@ openActivitiesTable.set('tennisColor', {name: 'Tennis Color', icon: tennisColor}
 openActivitiesTable.set('volleyball', {name: 'Volleyball', icon: volleyball});
 openActivitiesTable.set('volleyballColor', {name: 'Volleyball Color', icon: volleyballColor});
 
-export const OA_ICON_SIZE = openActivitiesTable.size;
+export const OPEN_ACTIVITY_ICON_SIZE = openActivitiesTable.size;

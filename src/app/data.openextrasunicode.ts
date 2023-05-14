@@ -630,4 +630,4 @@ openExtrasUnicodeTable.set('whiteVerticalEllipseColor', {
     icon: whiteVerticalEllipseColor,
 });
 
-export const OA_ICON_SIZE = openExtrasUnicodeTable.size;
+export const OPEN_EXTRA_UNICODE_ICON_SIZE = openExtrasUnicodeTable.size;

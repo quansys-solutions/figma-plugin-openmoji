@@ -1,9 +1,9 @@
-<svg id="emoji" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg id="emoji" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64">
   <g id="color">
     <rect x="5" y="17" width="62" height="38" fill="#186648"/>
-    <rect x="38" y="16.9999" width="4" height="38" fill="#ffffff" stroke-width="2"/>
+    <rect x="38" y="16.9999" width="4" height="38" fill="#ffffff" strokeWidth="2"/>
     <rect x="5" y="34" width="62" height="4"/>
-    <rect x="5" y="38" width="62" height="4" fill="#ffffff" stroke-width="2"/>
+    <rect x="5" y="38" width="62" height="4" fill="#ffffff" strokeWidth="2"/>
     <rect x="5" y="30" width="62" height="4" fill="#fcea2b"/>
     <rect x="34" y="16.9999" width="4" height="38"/>
     <rect x="30" y="16.9999" width="4" height="38" fill="#fcea2b"/>
@@ -29,6 +29,6 @@
     </g>
   </g>
   <g id="line">
-    <rect x="5" y="17" width="62" height="38" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect x="5" y="17" width="62" height="38" fill="none" stroke="#000" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
   </g>
 </svg>

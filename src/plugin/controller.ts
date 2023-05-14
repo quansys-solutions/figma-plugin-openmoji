@@ -1,15 +1,35 @@
-import { awsTable } from '../app/data.aws';
-import { gcpTable } from '../app/data.gcp';
+// import { awsTable } from '../app/data.aws';
+// import { gcpTable } from '../app/data.gcp';
 import { decode } from 'js-base64';
-import { azureTable } from '../app/data.azure';
+// import { azureTable } from '../app/data.azure';
+import { openActivitiesTable } from '../app/data.openactivities';
+import { openAnimalNatureTable } from '../app/data.openanimalnature';
+import { openComponentsTable } from '../app/data.opencomponent';
+import { openFlagsTable } from '../app/data.openflags';
+import { openFoodDrinkTable } from '../app/data.openfooddrink';
+import { openObjectsTable } from '../app/data.openobjects';
+import { openPeopleBodyTable } from '../app/data.openpeoplebody';
+import { openSmileysEmotionTable } from '../app/data.opensmileysemotion';
+import { openSymbolsTable } from '../app/data.opensymbols';
+import { openTravelPlacesTable } from '../app/data.opentravelplaces';
 
-figma.showUI(__html__, { width: 360, height: 500 })
+figma.showUI(__html__, { width: 750, height: 500 })
 
 figma.ui.onmessage = message => {
     const icons = {
-        aws: awsTable,
-        gcp: gcpTable,
-        azure: azureTable
+        activities: openActivitiesTable,
+        animal: openAnimalNatureTable,
+        component: openComponentsTable,
+        flag: openFlagsTable,
+        food: openFoodDrinkTable,
+        object: openObjectsTable,
+        people: openPeopleBodyTable,
+        smiley: openSmileysEmotionTable,
+        symbol: openSymbolsTable,
+        travel: openTravelPlacesTable
+        // aws: awsTable,
+        // gcp: gcpTable,
+        // azure: azureTable
     }
     const hashTable = icons[message.provider];
     const entry = hashTable.get(message.type);

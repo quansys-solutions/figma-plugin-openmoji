@@ -541,4 +541,4 @@ openFoodDrinkTable.set('peanutsColor', {name: 'Peanuts Color', icon: peanutsColo
 openFoodDrinkTable.set('potato', {name: 'Potato', icon: potato});
 openFoodDrinkTable.set('potatoColor', {name: 'Potato Color', icon: potatoColor});
 
-export const OA_ICON_SIZE = openFoodDrinkTable.size;
+export const OPEN_FOOD_DRINK_ICON_SIZE = openFoodDrinkTable.size;

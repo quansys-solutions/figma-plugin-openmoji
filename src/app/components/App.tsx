@@ -44,7 +44,7 @@ const App = () => {
                         color: 'rgba(0, 0, 0, 0.5)',
                     }}
                 >
-                    Cloud Icons v1.1.0
+                    Open Emoji Icons v1.0.0
                 </div>
             </div>
         </div >

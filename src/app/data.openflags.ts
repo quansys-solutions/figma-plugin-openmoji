@@ -1152,4 +1152,4 @@ openFlagsTable.set('flagScotlandColor', {name: 'Flag Scotland Color', icon: flag
 openFlagsTable.set('flagWales', {name: 'Flag Wales', icon: flagWales});
 openFlagsTable.set('flagWalesColor', {name: 'Flag Wales Color', icon: flagWalesColor});
 
-export const OA_ICON_SIZE = openFlagsTable.size;
+export const OPEN_FLAG_ICON_SIZE = openFlagsTable.size;

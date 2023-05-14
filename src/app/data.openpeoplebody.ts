@@ -7322,4 +7322,4 @@ openPeopleBodyTable.set('peopleHuggingColor', {name: 'People Hugging Color', ico
 openPeopleBodyTable.set('speakingHead', {name: 'Speaking Head', icon: speakingHead});
 openPeopleBodyTable.set('speakingHeadColor', {name: 'Speaking Head Color', icon: speakingHeadColor});
 
-export const OA_ICON_SIZE = openPeopleBodyTable.size;
+export const OPEN_PEOPLE_BODY_ICON_SIZE = openPeopleBodyTable.size;

@@ -942,4 +942,4 @@ openTravelPlacesTable.set('shipColor', {name: 'Ship Color', icon: shipColor});
 openTravelPlacesTable.set('speedboat', {name: 'Speedboat', icon: speedboat});
 openTravelPlacesTable.set('speedboatColor', {name: 'Speedboat Color', icon: speedboatColor});
 
-export const OA_ICON_SIZE = openTravelPlacesTable.size;
+export const OPEN_TRAVEL_PLACES_ICON_SIZE = openTravelPlacesTable.size;

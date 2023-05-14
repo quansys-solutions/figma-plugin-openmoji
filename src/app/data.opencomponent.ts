@@ -46,4 +46,4 @@ openComponentsTable.set('mediumLightSkinToneColor', {
 openComponentsTable.set('mediumSkinTone', {name: 'Medium Skin Tone', icon: mediumSkinTone});
 openComponentsTable.set('mediumSkinToneColor', {name: 'Medium Skin Tone Color', icon: mediumSkinToneColor});
 
-export const OA_ICON_SIZE = openComponentsTable.size;
+export const OPEN_COMPONENT_ICON_SIZE = openComponentsTable.size;

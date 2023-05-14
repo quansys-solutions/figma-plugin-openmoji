@@ -1,0 +1,110 @@
+const FOOD = () => {
+    return (
+        <svg id="emoji" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg" width={24} height={24}>
+            <g id="color">
+                <path
+                    fill="#fcea2b"
+                    stroke="none"
+                    d="M57,11.9961c5.5225,0,10,4.4775,10,10v31c0,1.1045-0.8955,2-2,2H7c-1.1045,0-2-0.8955-2-2v-31 c0-1.1045,0.8955-2,2-2l13-2.0801L57,11.9961z"
+                />
+                <circle cx="16" cy="43.9961" r="5" fill="#f1b31c" stroke="none" />
+                <circle cx="56" cy="29.9961" r="5" fill="#f1b31c" stroke="none" />
+                <circle cx="49" cy="44.9961" r="3" fill="#f1b31c" stroke="none" />
+                <circle cx="40" cy="31.9961" r="3" fill="#f1b31c" stroke="none" />
+                <circle cx="32" cy="40.9961" r="3" fill="#f1b31c" stroke="none" />
+                <circle cx="21" cy="28.9961" r="3" fill="#f1b31c" stroke="none" />
+            </g>
+            <g id="hair" />
+            <g id="skin" />
+            <g id="skin-shadow" />
+            <g id="line">
+                <path
+                    fill="none"
+                    stroke="#000000"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeMiterlimit="10"
+                    strokeWidth="2"
+                    d="M67,21.9961v31c0,1.1045-0.8955,2-2,2H7c-1.1045,0-2-0.8955-2-2v-31c0-1.1045,0.8955-2,2-2l50-8"
+                />
+                <path
+                    fill="none"
+                    stroke="#000000"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeMiterlimit="10"
+                    strokeWidth="2"
+                    d="M57,11.9961c5.5225,0,10,4.4775,10,10"
+                />
+                <circle
+                    cx="16"
+                    cy="43.9961"
+                    r="5"
+                    fill="none"
+                    stroke="#000000"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeMiterlimit="10"
+                    strokeWidth="2"
+                />
+                <circle
+                    cx="56"
+                    cy="29.9961"
+                    r="5"
+                    fill="none"
+                    stroke="#000000"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeMiterlimit="10"
+                    strokeWidth="2"
+                />
+                <circle
+                    cx="49"
+                    cy="44.9961"
+                    r="3"
+                    fill="none"
+                    stroke="#000000"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeMiterlimit="10"
+                    strokeWidth="2"
+                />
+                <circle
+                    cx="40"
+                    cy="31.9961"
+                    r="3"
+                    fill="none"
+                    stroke="#000000"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeMiterlimit="10"
+                    strokeWidth="2"
+                />
+                <circle
+                    cx="32"
+                    cy="40.9961"
+                    r="3"
+                    fill="none"
+                    stroke="#000000"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeMiterlimit="10"
+                    strokeWidth="2"
+                />
+                <circle
+                    cx="21"
+                    cy="28.9961"
+                    r="3"
+                    fill="none"
+                    stroke="#000000"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeMiterlimit="10"
+                    strokeWidth="2"
+                />
+            </g>
+        </svg>
+    );
+};
+
+export default FOOD;
